@@ -1,32 +1,29 @@
+⚠WIP施工中⚠
+
+---
+
 ### **MinecraftResourcePack BE/Java Switcher**
 
-这是一个旨在帮助Minecraft玩家和开发者在 **Minecraft Bedrock Edition** 和 **Java Edition** 之间切换资源包的小工具。该工具目前提供了一些基本功能，允许用户通过以下方式来适配资源包：
+**功能：**
+- **Hash-based 文件对比**：对比Bedrock版和Java版资源包中的相同贴图文件。
+- **自动改名**：自动修改资源包中的贴图文件名称，适配不同版本。
+- **生成.mcmeta文件**：为Java版动画贴图自动生成 `.mcmeta` 文件。
 
-**当前功能：**
-- **Hash-based 文件对比**：对比Bedrock和Java版本中相同贴图文件的哈希值，帮助用户识别和匹配对应的资源文件。
-- **自动改名**：对资源包中的纹理文件进行自动重命名，以确保符合不同版本的命名规则。
-- **自动生成 .mcmeta 文件**：为Java版资源包中的动画贴图生成对应的 `.mcmeta` 文件，从而确保动画效果的正常播放。
-
-**已知问题/限制：**
-- **UI不完全适配**：目前提供的UI界面功能未完全适配，可能无法正常工作。
-- **资源包不自动生成**：生成的文件需要手动将 `textures` 文件放入Minecraft资源包中，工具并未自动创建完整的资源包结构。
-- **功能扩展**：目前工具主要支持对文件进行对比和名称修改，未来计划实现更多功能，如自动转换完整资源包格式等。
+**已知问题：**
+- UI界面未完全适配。
+- 生成的文件需要手动放入资源包中，工具未自动创建完整资源包。
 
 ---
 
-**未来目标：**
-- 自动生成Minecraft资源包结构，用户可以一键生成完整的资源包文件。
-- 完善UI界面，提升用户体验。
-- 扩展更多对不同类型资源的支持（如声音、模型等）。
+### **MinecraftResourcePack BE/Java Switcher**
+
+**Features:**
+- **Hash-based Comparison**: Compares the texture files between Bedrock and Java versions.
+- **Auto Rename**: Automatically renames texture files to match the version requirements.
+- **Generate .mcmeta Files**: Automatically generates `.mcmeta` files for animated textures in Java Edition.
+
+**Known Issues:**
+- UI is not fully adapted yet.
+- Generated files need to be manually placed into the resource pack; the tool does not create the complete resource pack structure.
 
 ---
-
-### **Installation**
-
-1. 下载并解压该项目。
-2. 运行脚本后，选择Bedrock版和Java版资源包文件夹。
-3. 自动化对比和修改贴图文件，并根据需要手动构建资源包。
-
----
-
-这样描述既能清晰地传达出你当前的实现内容，又为未来的功能扩展预留了空间，同时也帮助用户理解当前版本的功能和限制。
