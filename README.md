@@ -12,7 +12,7 @@
 **已知问题：**
 - UI界面未完全适配。
 - 生成的文件需要手动放入资源包中，工具未自动创建完整资源包。
-
+- TGA文件
 ---
 
 ### **MinecraftResourcePack BE/Java Switcher**
